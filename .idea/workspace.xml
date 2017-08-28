@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47814c02-4885-4ab0-b790-96699d63dbd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MondoStockWeb/WebFrontStock/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/settings.py" afterPath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/urls.py" afterPath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="357">
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -61,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MondoStockWeb/WebFrontStock/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -142,11 +139,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/settings.py" />
         <option value="$PROJECT_DIR$/MondoStockWeb/WebFrontStock/views.py" />
         <option value="$PROJECT_DIR$/MondoStockWeb/WebFrontStock/urls.py" />
         <option value="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/urls.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -183,18 +180,6 @@
               <item name="MondoStock" type="b2602c69:ProjectViewProjectNode" />
               <item name="MondoStock" type="462c0819:PsiDirectoryNode" />
               <item name="MondoStockWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MondoStock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MondoStock" type="462c0819:PsiDirectoryNode" />
-              <item name="MondoStockWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="MondoStockWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MondoStock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MondoStock" type="462c0819:PsiDirectoryNode" />
-              <item name="MondoStockWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="WebFrontStock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MondoStock" type="b2602c69:ProjectViewProjectNode" />
@@ -427,16 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MondoStockWeb/WebFrontStock/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -471,6 +446,16 @@
           <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
