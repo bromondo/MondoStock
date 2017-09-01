@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47814c02-4885-4ab0-b790-96699d63dbd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/Header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/includes/snippet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MondoStockWeb/StockStatistics/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/settings.py" afterPath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/urls.py" afterPath="$PROJECT_DIR$/MondoStockWeb/MondoStockWeb/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/includes/snippet.html" afterPath="$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/includes/snippet.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -122,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snippet.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="snippet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/includes/snippet.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -651,6 +645,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/includes/snippet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/Header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -665,14 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MondoStockWeb/StockStatistics/Templates/StockStatistics/includes/snippet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
