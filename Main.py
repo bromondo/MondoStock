@@ -6,10 +6,9 @@ import pandas_datareader.data as web
 
 style.use('ggplot')
 
-##start = dt.datetime(2000,1,1)
-##end = dt.datetime(2017,8,27)
-##df = web.DataReader('TSLA', 'yahoo',start, end)
-df = pd.read_csv('tsla.csv')
+start = dt.datetime(2000,1,1)
+end = dt.datetime(2017,8,27)
+df = web.DataReader('TSLA', 'yahoo',start, end)
 
 print(df.head())
 df['100ma'] = df['Adj Close'].rolling(window=100).mean()
