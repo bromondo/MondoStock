@@ -1,11 +1,27 @@
-{% extends "StockStatistics/Header.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <a href="http://127.0.0.1:8000/StockPage/">Click here for the StockPage</a>
+</head>
+<body class="body" style="background-color:#f6f6f6">
+    <label for="StockType">Please enter the date of desired stock information:</label>
+    <input type="date" id="myDate" value="2000-05-05">
+    <div>
+    </div>
 
-{% block content %}
-<p>"Welcome to my website"</p>
+<button onclick="ReturnDate()">Enter Date</button>
 
-<label for="StockType">Please enter the date of desired stock information:</label>
-    <input id="date" type="date">
-<a href="http://127.0.0.1:8000/StockPage/">Click here for the StockPage</a>
+<p id="Variable Date"></p>
 
-{% include "StockStatistics/includes/snippet.html" %}
-{% endblock %}
+<script>
+function ReturnDate() {
+    var UserDate = document.getElementById("myDate").value;
+    document.getElementById("Variable Date").innerHTML = UserDate;
+    return UserDate;
+}
+</script>
+
+</body>
+</html>
