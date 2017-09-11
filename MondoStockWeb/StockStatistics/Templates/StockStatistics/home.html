@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <a href="http://127.0.0.1:8000/StockPage/">Click here for the StockPage</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body class="body" style="background-color:#f6f6f6">
-    <label for="StockType">Please enter the date of desired stock information:</label>
-    <input type="date" id="myDate" value="2000-05-05">
-    <div>
-    </div>
+<form action="javascript:ReturnEquityJson();">
+    Please enter the date of desired stock information:
+    <input type="text" id="myDate"><br>
 
-<button onclick="ReturnDate()">Enter Date</button>
+    Please enter the equity:
+    <input type="text" id="Equity"><br>
+
+    <input type="submit" value="Submit">
+</form>
 
 <p id="Variable Date"></p>
 
 <script>
-function ReturnDate() {
-    var UserDate = document.getElementById("myDate").value;
-    document.getElementById("Variable Date").innerHTML = UserDate;
-    return UserDate;
+function ReturnEquityJson() {
+    var Equity = document.getElementById("Equity").value;
+    var outerdata;
+    $.getJSON("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+ Equity +"&apikey=61QFFUCW618FPE4S", function(data) {
+        outerdata = data['Time Series (Daily)'];
+        for(i in outerdata)
+        {
+            console.log(i);
+            document.getElementById("myDate").innerHTML = i;
+        }
+    });
 }
 </script>
 
